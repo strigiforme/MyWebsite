@@ -1,0 +1,58 @@
+
+#first-name{
+  margin-left: 50px;
+}
+#last-name{
+  margin-left: 20px;
+}
+
+
+#horizontal-stripe{
+  animation: horizontal 1s ease-in;
+}
+
+#horizontal-stripe-2{
+  animation: horizontal 1s ease-in;
+}
+
+#vertical-stripe{
+  animation: vertical 0.75s ease-in;
+}
+
+@keyframes horizontal{
+  from{ stroke-dashoffset: 100vw;}
+  to{ stroke-dashoffset: 0; }
+}
+
+@keyframes vertical{
+  from{ stroke-dashoffset: -100vh;}
+  to{ stroke-dashoffset: 0; }
+}
+
+@keyframes horizontal-reverse{
+  from{ stroke-dashoffset: -100vw;}
+  to{ stroke-dashoffset: 0; }
+}
+
+.horizontal-spacer{
+  width: 100vw;
+  height: 100%;
+}
+#above{
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+#below{
+  grid-row-start: 4;
+  grid-row-end: 5;
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+.vertical-spacer{
+    grid-column-start:2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 6;
+    height: 100vh;
+    width: 100%;
+}
