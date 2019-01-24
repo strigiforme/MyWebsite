@@ -1,4 +1,4 @@
-# MyWebsite -- Live at howardpearce.ca
+# MyWebsite
 A website that I can send to future employers or colleagues to demonstrate my skills and easily increase my influence / reach. I'm trying to incorporate the following aspects:
 
 ### Modern Design
@@ -17,3 +17,5 @@ Fluid website design that has following features:
   
 ### Suggestions?
 If you feel you could improve I insist you send some code my way, I love feedback especially for this type of project where design is NOT my strong suit (hence the four versions).
+
+#### Live at howardpearce.ca
